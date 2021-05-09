@@ -50,7 +50,7 @@
     <div class="request-btn">
       <RequestButton />
     </div>
-    <v-dialog v-model="dialog">
+    <v-dialog v-model="dialog" width="285">
       <template v-slot:activator="{ on, attrs }">
         <div class="dialog-button">
           <v-btn class="dialog-button mt-3" v-bind="attrs" v-on="on" text width="0" height="0">
@@ -113,7 +113,7 @@ export default {
 .v-dialog {
   position: absolute;
   top: 4rem;
-  width: 82vw !important;
+  // width: 82vw !important;
 
 
   .v-card {
