@@ -1,4 +1,4 @@
-@media screen and (max-width: 1139px) {
+@media screen and(max-width: 1139px) {
     #introduction {
         .image-1 {
             top: -14rem;
@@ -9,15 +9,21 @@
         }
     }
 
-    #whyeasy, #latest-article {
-        .first, .second, .third, .fourth {
+    #whyeasy,
+    #latest-article {
+        .first,
+        .second,
+        .third,
+        .fourth {
             margin-right: 2rem;
         }
     }
 }
 
-@media screen and (max-width: 1024px) {
-    #whyeasy, #latest-article, #footer {
+@media screen and(max-width: 1024px) {
+    #whyeasy,
+    #latest-article,
+    #footer {
         padding: 7rem 8rem;
     }
 
@@ -32,9 +38,9 @@
     }
 
     #footer {
-        ul { 
-            padding: 0; 
-            list-style: none; 
+        ul {
+            padding: 0;
+            list-style: none;
             text-align: left;
             margin-left: 5rem;
         }
@@ -62,15 +68,17 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    #whyeasy, #latest-article, #footer {
+@media screen and(max-width: 768px) {
+    #whyeasy,
+    #latest-article,
+    #footer {
         padding: 7rem 5rem;
-        
+
     }
 
     .button-div {
         .request-btn {
-            font-size: .9rem !important;
+            font-size: 0.9rem !important;
         }
     }
 
@@ -89,7 +97,7 @@
 
         .logo img {
             width: 10rem;
-            margin-top: .4rem;
+            margin-top: 0.4rem;
         }
     }
 
@@ -102,11 +110,10 @@
         }
     }
 
-    
-    
+
     #introduction {
         .left-div {
-            padding: 5rem 5rem 5rem 5rem
+            padding: 5rem
         }
 
         .image-1 {
@@ -126,16 +133,18 @@
     }
 }
 
-@media screen and (max-width: 575px) {
+@media screen and(max-width: 575px) {
     #navbar {
         padding: 1.05rem 2rem;
     }
 
 
-    #whyeasy, #latest-article, #footer {
+    #whyeasy,
+    #latest-article,
+    #footer {
         padding: 7rem 2rem;
     }
-    
+
     #introduction {
         height: 40vh;
         .image-1 {
@@ -154,7 +163,7 @@
         }
 
         .left-div {
-            padding: 3rem 1rem 0rem 2rem
+            padding: 3rem 1rem 0 2rem
         }
 
         .head {
@@ -167,9 +176,10 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and(max-width: 480px) {
     #navbar {
-        .links-div, .request-btn {
+        .links-div,
+        .request-btn {
             display: none;
         }
 
@@ -182,7 +192,7 @@
             margin-top: -1rem;
         }
     }
-    
+
     #footer {
         .left-main {
             display: block;
@@ -195,7 +205,7 @@
 
             img {
                 width: 4.5rem;
-                padding: 0rem 1.5rem
+                padding: 0 1.5rem
             }
         }
 
@@ -205,15 +215,15 @@
         }
 
         .second-col {
-            margin-top: 3rem; 
+            margin-top: 3rem;
         }
 
-        ul { 
+        ul {
             text-align: center;
-            margin-left: 0rem;
+            margin-left: 0;
         }
     }
-    
+
     #latest-article {
         padding: 7rem 2rem;
 
@@ -221,16 +231,19 @@
             text-align: center;
         }
 
-        .first, .second, .third, .fourth {
-            margin-right: 0rem;
+        .first,
+        .second,
+        .third,
+        .fourth {
+            margin-right: 0;
         }
 
-        
+
     }
 
     .latest-articles-card {
-            width: calc(100vw - 4rem);
-        }
+        width: calc(100vw - 4rem);
+    }
 
     #whyeasy {
         padding: 7rem 2rem;
@@ -243,10 +256,13 @@
             justify-content: center;
             text-align: center;
         }
-        .first, .second, .third, .fourth {
-            margin-right: 0rem;
+        .first,
+        .second,
+        .third,
+        .fourth {
+            margin-right: 0;
         }
-        
+
     }
 
     .whyeasydetails {
@@ -255,14 +271,14 @@
         img {
             width: 5rem;
         }
-    
+
         .sub-header-main {
             font-size: 1.4rem;
             margin-top: 1.5rem;
         }
     }
-    
-    
+
+
     #introduction {
         height: 40vh;
         .image-1 {
@@ -281,7 +297,7 @@
         }
 
         .left-div {
-            padding: 3rem 1rem 0rem 2rem
+            padding: 3rem 1rem 0 2rem
         }
 
         .head {
@@ -294,28 +310,31 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and(max-width: 375px) {
     .latest-articles-card {
         width: calc(100vw - 6rem);
     }
-    
-    #whyeasy, #latest-article, #footer {
+
+    #whyeasy,
+    #latest-article,
+    #footer {
         padding: 4rem 3rem;
     }
-    
+
     #introduction {
         display: block;
         height: auto;
         padding-bottom: 4rem;
         .left-div {
-            padding: 35rem 3rem 0rem 3rem;
+            padding: 35rem 3rem 0;
             text-align: center !important;
-            
+
         }
 
-        .left-div, .right-div {
+        .left-div,
+        .right-div {
             width: 100vw;
-            
+
         }
 
         .image-1 {
