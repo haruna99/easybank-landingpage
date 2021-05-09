@@ -111,8 +111,8 @@ export default {
 
 <style lang="scss">
 .v-dialog {
-  position: fixed;
-  top: 4rem;
+  // position: fixed;
+  // top: 4rem;
   // left: 0;
   // width: 82vw !important;
 
