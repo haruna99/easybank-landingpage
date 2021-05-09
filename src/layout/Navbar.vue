@@ -113,7 +113,8 @@ export default {
 .v-dialog {
   position: absolute;
   top: 4rem;
-  width: 90vw !important;
+  width: 82vw !important;
+
 
   .v-card {
     padding: 3rem 0rem;
