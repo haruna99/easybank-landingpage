@@ -1,0 +1,349 @@
+@media screen and (max-width: 1139px) {
+    #introduction {
+        .image-1 {
+            top: -14rem;
+            right: -20rem;
+            width: 80rem;
+            // width: 60vw;
+            z-index: 9;
+        }
+    }
+
+    #whyeasy, #latest-article {
+        .first, .second, .third, .fourth {
+            margin-right: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #whyeasy, #latest-article, #footer {
+        padding: 7rem 8rem;
+    }
+
+    #navbar {
+        padding: 1.3rem 8rem;
+
+        .links-div {
+            ul {
+                width: 30rem;
+            }
+        }
+    }
+
+    #footer {
+        ul { 
+            padding: 0; 
+            list-style: none; 
+            text-align: left;
+            margin-left: 5rem;
+        }
+    }
+
+    #introduction {
+        .left-div {
+            padding: 10rem 5rem 8rem 8rem
+        }
+
+        .image-1 {
+            top: -14rem;
+            right: -24rem;
+            width: 72rem;
+            // width: 60vw;
+            z-index: 9;
+        }
+
+        .image-2 {
+            width: 46rem;
+            top: -9rem;
+            right: -11rem;
+            z-index: 99
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #whyeasy, #latest-article, #footer {
+        padding: 7rem 5rem;
+        
+    }
+
+    .button-div {
+        .request-btn {
+            font-size: .9rem !important;
+        }
+    }
+
+    #navbar {
+        padding: 1.05rem 5rem;
+
+        .links-div {
+            ul {
+                width: 20rem;
+            }
+
+            a {
+                font-size: 1.1rem;
+            }
+        }
+
+        .logo img {
+            width: 10rem;
+            margin-top: .4rem;
+        }
+    }
+
+    #footer {
+        display: block;
+
+        .right-main {
+            margin-top: 3rem;
+            text-align: left;
+        }
+    }
+
+    
+    
+    #introduction {
+        .left-div {
+            padding: 5rem 5rem 5rem 5rem
+        }
+
+        .image-1 {
+            top: -10rem;
+            right: -16rem;
+            width: 52rem;
+            // width: 60vw;
+            z-index: 9;
+        }
+
+        .image-2 {
+            width: 36rem;
+            top: -6rem;
+            right: -8rem;
+            z-index: 99
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #navbar {
+        padding: 1.05rem 2rem;
+    }
+
+
+    #whyeasy, #latest-article, #footer {
+        padding: 7rem 2rem;
+    }
+    
+    #introduction {
+        height: 40vh;
+        .image-1 {
+            top: -7.5rem;
+            right: -15rem;
+            width: 40rem;
+            // width: 60vw;
+            z-index: 9;
+        }
+
+        .image-2 {
+            width: 24.5rem;
+            top: -4rem;
+            right: -5rem;
+            z-index: 99
+        }
+
+        .left-div {
+            padding: 3rem 1rem 0rem 2rem
+        }
+
+        .head {
+            font-size: 1.8rem;
+        }
+
+        .second-para {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        .links-div, .request-btn {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+        .dialog-button {
+            display: block !important;
+            margin-top: -1rem;
+        }
+    }
+    
+    #footer {
+        .left-main {
+            display: block;
+        }
+
+        .icons {
+            margin-top: 3rem;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 4.5rem;
+                padding: 0rem 1.5rem
+            }
+        }
+
+        .right-main {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .second-col {
+            margin-top: 3rem; 
+        }
+
+        ul { 
+            text-align: center;
+            margin-left: 0rem;
+        }
+    }
+    
+    #latest-article {
+        padding: 7rem 2rem;
+
+        .head {
+            text-align: center;
+        }
+
+        .first, .second, .third, .fourth {
+            margin-right: 0rem;
+        }
+
+        
+    }
+
+    .latest-articles-card {
+            width: calc(100vw - 4rem);
+        }
+
+    #whyeasy {
+        padding: 7rem 2rem;
+
+        p {
+            text-align: center;
+        }
+
+        .easy-details {
+            justify-content: center;
+            text-align: center;
+        }
+        .first, .second, .third, .fourth {
+            margin-right: 0rem;
+        }
+        
+    }
+
+    .whyeasydetails {
+        margin-top: 5rem;
+        width: auto;
+        img {
+            width: 5rem;
+        }
+    
+        .sub-header-main {
+            font-size: 1.4rem;
+            margin-top: 1.5rem;
+        }
+    }
+    
+    
+    #introduction {
+        height: 40vh;
+        .image-1 {
+            top: -6rem;
+            right: -12rem;
+            width: 35rem;
+            // width: 60vw;
+            z-index: 9;
+        }
+
+        .image-2 {
+            width: 22.5rem;
+            top: -4rem;
+            right: -5rem;
+            z-index: 99
+        }
+
+        .left-div {
+            padding: 3rem 1rem 0rem 2rem
+        }
+
+        .head {
+            font-size: 1.8rem;
+        }
+
+        .second-para {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .latest-articles-card {
+        width: calc(100vw - 6rem);
+    }
+    
+    #whyeasy, #latest-article, #footer {
+        padding: 4rem 3rem;
+    }
+    
+    #introduction {
+        display: block;
+        height: auto;
+        padding-bottom: 4rem;
+        .left-div {
+            padding: 35rem 3rem 0rem 3rem;
+            text-align: center !important;
+            
+        }
+
+        .left-div, .right-div {
+            width: 100vw;
+            
+        }
+
+        .image-1 {
+            display: none;
+        }
+
+        .image-3 {
+            display: block;
+            top: -5rem;
+            right: 0;
+            // width: ;
+        }
+
+        .image-2 {
+            width: 30rem;
+            top: -6rem;
+            // right: -8rem;
+            right: 50%;
+            transform: translateX(50%);
+            z-index: 99
+        }
+
+        .head {
+            font-size: 2.2rem;
+        }
+
+        .second-para {
+            font-size: 1.2rem;
+        }
+    }
+}
