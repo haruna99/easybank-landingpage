@@ -111,10 +111,10 @@ export default {
 
 <style lang="scss">
 .v-dialog {
-  // position: fixed;
-  // top: 4rem;
+  position: absolute;
+  top: 4rem;
   // left: 0;
-  // width: 82vw !important;
+  width: 80vw !important;
 
 
   .v-card {
